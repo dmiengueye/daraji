@@ -49,8 +49,8 @@ class EmailConfig {
 
      public $mailgun = array(
         'transport' => 'Mailgun',
-        'mg_domain'    => 'sandbox27bec34416544b3bb9fba4f17ccadc4f.mailgun.org',
-        'mg_api_key'   => 'key-b910a0f7d3ab34011f4d836ef8ddc4ff',
+        'mg_domain'    => '',
+        'mg_api_key'   => '',
         //'from' => array('no-reply@wizwonk.com' => 'Daraji'),
          'from' => array('info@wizwonk.com' => 'Daraji'),
 
@@ -61,8 +61,8 @@ class EmailConfig {
 
      public $mailgun_plug = array(
 	        'transport' => 'Mailgun.Mailgun',
-	        'mg_domain'    => 'wizwonk.com', //'sandbox27bec34416544b3bb9fba4f17ccadc4f.mailgun.org',
-	        'mg_api_key'   => 'key-b910a0f7d3ab34011f4d836ef8ddc4ff',
+	        'mg_domain'    => '', //'
+	        'mg_api_key'   => '',
 	        //'from' => array('no-reply@wizwonk.com' => 'Daraji'),
 	         'from' => array('info@wizwonk.com' => 'Daraji'),
 
@@ -78,8 +78,8 @@ class EmailConfig {
             'host' => 'ssl://smtp.gmail.com',
 		    'port' => 465,
 		   // 'ssl' => 'yes',
-			'username' => 'donald.guy35@gmail.com',
-			'password' => 'wizwonkdaraji2015',
+			'username' => '',
+			'password' => '',
 	        'transport' => 'smtp',
 	        //'timeout' => 75
 	       // 'client' => null
