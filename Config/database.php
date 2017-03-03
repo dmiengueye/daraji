@@ -69,7 +69,7 @@ class DATABASE_CONFIG {
 		'host' => '127.0.0.1',
         'port' => '3306',
 		'login' => 'root',
-		'password' => 'AidaIdrissa04',
+		'password' => '',
 		'database' => 'test',
 		//'unix_socket' => '/opt/lampp/var/mysql/mysql.sock',
 		'prefix' => '',
